@@ -6,6 +6,9 @@ summary(data)
 str(data)
 head(data)
 
+#identifying the null values using sapply()to return result in form of array
+sapply(data,function(x)sum(is.na(x)))
+
 # Univariate analysis (example for 'TV','radio','newspaper' feature)
 hist(data$TV, main="Histogram of TV ", xlab="Sales via Tv Ad")
 hist(data$TV, main="Histogram of radio ", xlab="Sales via radio Ad")
