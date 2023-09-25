@@ -11,8 +11,7 @@ sapply(data,function(x)sum(is.na(x)))
 
 # Univariate analysis (example for 'TV','radio','newspaper' feature)
 hist(data$TV, main="Histogram of TV ", xlab="Sales via Tv Ad")
-hist(data$TV, main="Histogram of radio ", xlab="Sales via radio Ad")
-hist(data$TV, main="Histogram of newspaper ", xlab="Sales via newspaper Ad")
+
 
 
 # Bivariate analysis (example for TV vs. Sales)
